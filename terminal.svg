@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="280" viewBox="0 0 680 280">
+  <defs>
+    <style>
+      @keyframes reveal { from { opacity: 0; } to { opacity: 1; } }
+      @keyframes blink  { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+      .line { opacity: 0; animation: reveal 0.08s forwards; }
+      .l0  { animation-delay: 0.4s; }
+      .l1  { animation-delay: 0.9s; }
+      .l2  { animation-delay: 1.4s; }
+      .l3  { animation-delay: 2.0s; }
+      .l4  { animation-delay: 2.6s; }
+      .l5  { animation-delay: 3.1s; }
+      .l6  { animation-delay: 3.5s; }
+      .l7  { animation-delay: 3.9s; }
+      .l8  { animation-delay: 4.3s; }
+      .l9  { animation-delay: 4.7s; }
+      .l10 { animation-delay: 5.1s; }
+      .cursor { opacity: 0; animation: blink 1s step-end infinite; animation-delay: 5.2s; }
+    </style>
+  </defs>
+  <rect width="680" height="280" rx="10" ry="10" fill="#0d0d0d"/>
+  <rect width="680" height="34" rx="10" ry="10" fill="#1a1a1a"/>
+  <rect y="18" width="680" height="16" fill="#1a1a1a"/>
+  <line x1="0" y1="34" x2="680" y2="34" stroke="#2a2a2a" stroke-width="1"/>
+  <circle cx="22" cy="17" r="5.5" fill="#ff5f56"/>
+  <circle cx="40" cy="17" r="5.5" fill="#ffbd2e"/>
+  <circle cx="58" cy="17" r="5.5" fill="#27c93f"/>
+  <text x="340" y="22" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="11" fill="#555555">securegen -- bash -- 80x24</text>
+  <rect width="680" height="280" rx="10" ry="10" fill="url(#scan)" opacity="0.06"/>
+  <defs>
+    <pattern id="scan" x="0" y="0" width="2" height="4" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="2" height="2" fill="#000000"/>
+    </pattern>
+  </defs>
+  <text class="line l0" x="16" y="64" font-family="'Courier New', Courier, monospace" font-size="13" fill="#00ff41" font-weight="bold">SecureGeneration Terminal v1.0</text>
+  <line class="line l1" x1="16" y1="76" x2="664" y2="76" stroke="#1c4a1c" stroke-width="1"/>
+  <text class="line l2" x="16" y="98" font-family="'Courier New', Courier, monospace" font-size="13" fill="#00cc33">[*] Initializing PRISM framework...</text>
+  <text class="line l3" x="16" y="118" font-family="'Courier New', Courier, monospace" font-size="13" fill="#00cc33">[*] Loading MITRE ATLAS mappings...</text>
+  <text class="line l3" x="496" y="118" font-family="'Courier New', Courier, monospace" font-size="13" fill="#00ff41">OK</text>
+  <text class="line l4" x="16" y="138" font-family="'Courier New', Courier, monospace" font-size="13" fill="#00cc33">[*] Registering scenario library...</text>
+  <text class="line l4" x="496" y="138" font-family="'Courier New', Courier, monospace" font-size="13" fill="#00ff41">OK</text>
+  <text class="line l5" x="16" y="164" font-family="'Courier New', Courier, monospace" font-size="13" fill="#00cc33">[*] Vendors evaluated:</text>
+  <text class="line l5" x="496" y="164" font-family="'Courier New', Courier, monospace" font-size="13" fill="#ffbd2e">0</text>
+  <text class="line l6" x="16" y="184" font-family="'Courier New', Courier, monospace" font-size="13" fill="#00cc33">[*] Scenarios loaded:</text>
+  <text class="line l6" x="496" y="184" font-family="'Courier New', Courier, monospace" font-size="13" fill="#00ff41">47</text>
+  <line class="line l7" x1="16" y1="196" x2="664" y2="196" stroke="#1c4a1c" stroke-width="1"/>
+  <text class="line l8" x="16" y="216" font-family="'Courier New', Courier, monospace" font-size="13" fill="#00ff41" font-weight="bold">[&gt;] PRISM status:</text>
+  <text class="line l8" x="430" y="216" font-family="'Courier New', Courier, monospace" font-size="13" fill="#00ff41" font-weight="bold">[ ACTIVE ]</text>
+  <text class="line l9" x="16" y="236" font-family="'Courier New', Courier, monospace" font-size="13" fill="#00ff41" font-weight="bold">[&gt;] Contributions:</text>
+  <text class="line l9" x="430" y="236" font-family="'Courier New', Courier, monospace" font-size="13" fill="#00ff41" font-weight="bold">[ OPEN ]</text>
+  <text class="line l10" x="16" y="262" font-family="'Courier New', Courier, monospace" font-size="13" fill="#58a6ff">github.com/SecureGeneration/prism</text>
+  <rect class="cursor" x="16" y="268" width="8" height="2" fill="#00ff41"/>
+  <rect width="680" height="280" rx="10" ry="10" fill="none" stroke="#00ff41" stroke-width="0.5" opacity="0.15"/>
+</svg>
