@@ -8,17 +8,15 @@
 
 ### About SecureGeneration
 
-SecureGeneration is an independent, community-driven security research collective. We build vendor-neutral evaluation frameworks for emerging technology security domains — establishing measurable standards before markets lock in around marketing claims.
-
-We believe accountability requires measurement, and measurement requires community consensus.
+SecureGeneration is an independent, community-driven security research collective. We build vendor-neutral evaluation frameworks for emerging technology security domains establishing measurable standards before markets lock in around marketing claims.
 
 ---
 
 ### Current Project
 
-**PRISM** — Prompt Risk & Injection Scenario Matrix
+**PRISM** Product Readiness Index for Secure Models
 
-The first open framework for evaluating how AI security products perform against real-world attack scenarios. Scenario-based. MITRE ATLAS-aligned. Four-dimension scoring across Prevent, Detect, Contain, and Attribute.
+Security teams are being sold AI security products right now with no independent way to verify the claims. A vendor says "we detect prompt injection" but what does that mean exactly? Which techniques? With what reliability? Against what framing? There's no benchmark. PRISM gives them an independent, reproducible scorecard. 
 
 → **[github.com/SecureGeneration/prism](https://github.com/SecureGeneration/prism)**
 
